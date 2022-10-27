@@ -6,3 +6,29 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.container {
+  margin: 16px 32px;
+}
+
+.filter-section {
+  display: grid;
+  grid-template-columns: auto;
+  margin-bottom: 12px;
+}
+
+.input-row {
+  margin-left: auto;
+}
+
+.image-row {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 40px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
