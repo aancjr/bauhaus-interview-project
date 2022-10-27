@@ -17,7 +17,7 @@ export default function ImageCard(props) {
                 src={imageURL}
                 title={title}
             />
-            <h2>{title}</h2>
+            {/* <h2>{title}</h2> */}
             <div>
                 <p>{description}</p>
             </div>
