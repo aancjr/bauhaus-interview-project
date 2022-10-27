@@ -6,7 +6,7 @@ const StyledCard = styled.div`
 `;
 
 export default function ImageCard(props) {
-    const { category, description, idx, imageURL, title } = props;
+    const { description, idx, imageURL, title } = props;
 
 
     return (

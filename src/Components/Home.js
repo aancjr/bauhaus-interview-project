@@ -60,7 +60,6 @@ export default function Home() {
                             return obj.category.includes(pickedFilter)
                         }).map((image, idx) => (
                             <ImageCard
-                                category={image.category}
                                 description={image.description}
                                 imageURL={image.image}
                                 key={idx}
